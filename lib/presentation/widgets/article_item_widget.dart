@@ -88,9 +88,11 @@ class _ArticleInfoWidget extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(
-                article.source.name,
-                style: const TextStyle(fontSize: 16.0, color: Colors.blue),
+              Expanded(
+                child: Text(
+                  article.source.name,
+                  style: const TextStyle(fontSize: 16.0, color: Colors.blue),
+                ),
               ),
               Text(
                 article.formattedDate,
