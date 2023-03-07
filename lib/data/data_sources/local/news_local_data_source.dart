@@ -1,4 +1,5 @@
-import 'package:news/data/models/article_model.dart';
+
+import '../../models/article_model.dart';
 
 abstract class NewsLocalDataSource {
   Future<void> cacheArticles(String boxName, List<ArticleModel> articles);

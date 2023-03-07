@@ -1,7 +1,8 @@
-import 'package:news/domain/entities/category.dart';
+// import "package:news/domain/entities/category.dart";
 
 import '../../core/resources/data_state.dart';
 import '../entities/article.dart';
+import '../entities/category.dart';
 
 abstract class NewsRepository {
   Future<DataState<List<Article>>> getTopHeadlineArticles(

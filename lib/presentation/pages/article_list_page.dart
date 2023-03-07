@@ -1,13 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news/presentation/widgets/loading_failed_widget.dart';
-
 import '../../core/constants/ui_constants.dart';
 import '../../domain/entities/article.dart';
 import '../../domain/entities/category.dart';
 import '../blocs/list/list_bloc.dart';
 import '../widgets/article_item_widget.dart';
+import '../widgets/loading_failed_widget.dart';
 import '../widgets/loading_list_widget.dart';
 import 'search_page.dart';
 

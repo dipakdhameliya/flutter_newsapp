@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news/presentation/pages/article_detail_page.dart';
+
 import 'package:shimmer/shimmer.dart';
 import 'package:transparent_image/transparent_image.dart';
 
@@ -13,6 +13,7 @@ import '../widgets/article_item_widget.dart';
 import '../widgets/loading_failed_widget.dart';
 import '../widgets/loading_list_widget.dart';
 import '../widgets/loading_widget.dart';
+import 'article_detail_page.dart';
 import 'article_list_page.dart';
 import 'category_list_page.dart';
 import 'search_page.dart';

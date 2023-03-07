@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:news/presentation/pages/article_detail_page.dart';
+
 import 'package:transparent_image/transparent_image.dart';
 
 import '../../core/constants/constants.dart';
 import '../../domain/entities/article.dart';
+import '../pages/article_detail_page.dart';
 
 class ArticleItemWidget extends StatelessWidget {
   final Article article;

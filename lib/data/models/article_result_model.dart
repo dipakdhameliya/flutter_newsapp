@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:news/data/models/article_model.dart';
+import 'article_model.dart';
 
 part 'article_result_model.g.dart';
 

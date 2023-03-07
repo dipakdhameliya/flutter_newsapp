@@ -1,9 +1,7 @@
 import 'dart:io';
-
 import 'package:dio/dio.dart';
-import 'package:news/core/constants/db_constants.dart';
-
 import '../../core/constants/constants.dart';
+import '../../core/constants/db_constants.dart';
 import '../../core/network/network_info.dart';
 import '../../core/resources/data_state.dart';
 import '../../domain/entities/article.dart';
